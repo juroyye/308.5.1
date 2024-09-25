@@ -1,27 +1,68 @@
 
 
-let arr = [3,7,1,6,4,2,8,0,5,2]
+// let arr = [3,7,1,6,4,2,8,0,5,2]
 
-function findSum(){
-      let sum = 0;
+// function findSum(){
+//       let sum = 0;
 
-      for (let i =0; i < arr.length; i++){
-        sum += arr[i]
-      }
-      console.log(sum)
-}
-
-
-function findAvg(){
-      let sum = 0;
-
-      for (let i =0; i < arr.length; i++){
-        (sum += arr[i]/arr.length)
-      }
-      console.log(sum)
-}
+//       for (let i =0; i < arr.length; i++){
+//         sum += arr[i]
+//       }
+//       console.log(sum)
+// }
 
 
+// function findAvg(){
+//       let sum = 0;
 
-findSum();
-findAvg();
+//       for (let i =0; i < arr.length; i++){
+//         (sum += arr[i]/arr.length)
+//       }
+//       console.log(sum)
+// }
+
+
+
+// findSum();
+// findAvg();
+
+
+//////////////////////////////////////////
+
+// let arr2 = ["Hello", "My name is Justin", "I like calm music", "Life is good"]
+
+// function findLongest(){
+
+//   return arr2.sort((a, b) => b.length - a.length)[0];
+// }
+
+// findLongest();
+// console.log(findLongest(arr2))
+
+// function stringsLongerThan(arr2, num){
+//   return arr2.filter(str => str.length > 6);
+// }
+
+// console.log(stringsLongerThan(arr2));
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////
+
+let arr = [
+  { id: "42", name: "Bruce", occupation: "Knight", age: "41" },
+  { id: "48", name: "Barry", occupation: "Runner", age: "25" },
+  { id: "57", name: "Bob", occupation: "Fry Cook", age: "19" },
+  { id: "63", name: "Blaine", occupation: "Quiz Master", age: "58" },
+  { id: "7", name: "Bilbo", occupation: "None", age: "111" }
+          ]
+
+          for(i = 0; i < arr.length; i++){
+            console.log(arr[i].age)
+          }
