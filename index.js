@@ -46,13 +46,6 @@
 // console.log(stringsLongerThan(arr2));
 
 
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////////
 
 let arr = [
@@ -63,6 +56,13 @@ let arr = [
   { id: "7", name: "Bilbo", occupation: "None", age: "111" }
           ]
 
-          for(i = 0; i < arr.length; i++){
-            console.log(arr[i].age)
+
+          function filterByAge(){
+              arr.sort((a, b)=> parseInt(a.age) - parseInt(b.age));
+              console.log(arr);
           }
+
+          filterByAge();
+          
+        
+         
