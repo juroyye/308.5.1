@@ -57,12 +57,29 @@ let arr = [
           ]
 
 
-          function filterByAge(){
-              arr.sort((a, b)=> parseInt(a.age) - parseInt(b.age));
-              console.log(arr);
-          }
+//           function sortByAge(){
+//               arr.sort((a, b)=> parseInt(a.age) - parseInt(b.age));
+//               console.log(arr);
+//           }
 
-          filterByAge();
-          
-        
-         
+//           sortByAge();
+
+
+
+    
+
+      
+
+      function filterOut50() {
+     let newArr = arr.filter(obj => obj.age < 50);
+        console.log(newArr);
+      }
+      
+      filterOut50();
+
+
+
+
+
+
+    
