@@ -65,21 +65,41 @@ let arr = [
 //           sortByAge();
 
 
-
-    
-
+  //     function filterOut50() {
+  //    let newArr = arr.filter(obj => obj.age < 50);
+  //       console.log(newArr);
+  //     }
       
-
-      function filterOut50() {
-     let newArr = arr.filter(obj => obj.age < 50);
-        console.log(newArr);
-      }
-      
-      filterOut50();
+  //     filterOut50();
 
 
+  //     function changeToJob(){
+  //            arr = arr.map(obj => {
+  //            return {
+  //             ...obj,
+  //             occupation: "Job", 
+  //             age: parseInt(obj.age) + 1
+  //            }
+  //            } )
+  //       console.log(arr)
+  //     }
+  // changeToJob()      
 
 
+//     let testObj = { 
+//       id: "63", 
+//       name: "Blaine", 
+//       occupation: "Quiz Master", 
+//       age: "58" 
+//     }
 
+//     function incrementAge(){
+//      console.log(parseInt(testObj.age) + 1)
+//     }
+// incrementAge()
 
-    
+// function copyAndIncrement(){
+//   let copyObj = {...testObj, age: parseInt(testObj.age) + 1}
+//   console.log(copyObj) 
+// }
+// copyAndIncrement()
