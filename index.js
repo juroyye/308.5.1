@@ -86,20 +86,40 @@ let arr = [
   // changeToJob()      
 
 
-//     let testObj = { 
-//       id: "63", 
-//       name: "Blaine", 
-//       occupation: "Quiz Master", 
-//       age: "58" 
-//     }
+    let testObj = { 
+      id: "63", 
+      name: "Blaine", 
+      occupation: "Quiz Master", 
+      age: 45
+    }
 
-//     function incrementAge(){
-//      console.log(parseInt(testObj.age) + 1)
-//     }
-// incrementAge()
+    function incrementAge(p){ 
+      if(p.age == undefined){
+           p.age = 0
+           console.log(p)
+      } else{
+        p.age + 1
+         console.log(p)
+      }
+    }
+incrementAge(testObj)
 
-// function copyAndIncrement(){
-//   let copyObj = {...testObj, age: parseInt(testObj.age) + 1}
-//   console.log(copyObj) 
-// }
-// copyAndIncrement()
+function copyAndIncrement(x){
+
+let copyObj = {...x}
+
+   if(copyObj.age == undefined){
+
+      copyObj.age = 0
+
+      console.log(copyObj)
+
+     } else{
+
+      copyObj.age++;
+      console.log(copyObj)
+
+     }
+}
+copyAndIncrement(testObj)
+
